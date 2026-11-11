@@ -8,6 +8,7 @@ The power section reuses a daughter board from the **NanoFridgeThermostat** proj
 
 ## HT Daughter Board (reused from NanoFridgeThermostat)
 
+Reusing the HT Daughter board from [NanoFridgeThermostat:](https://github.com/bebenlebricolo/NanoFridgeThermostat)
 | Item | Value |
 |------|-------|
 | Opto-triac | **MOC3042M** (zero-cross detection built in) |

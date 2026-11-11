@@ -110,7 +110,7 @@ House rules:
 
 | Block | Detail |
 |-------|--------|
-| MCU | Raspberry Pi Pico (RP2040), C++ / pico-sdk |
+| MCU | Raspberry Pi Pico (RP2040), C++ / pico-sdk — chosen over a Nano because the Nano's DTR reset on serial-open would kill a running cycle; Pico also adds UART1 (HC-05) and 264 KB RAM for the OLED |
 | Power switching | BTA316Y-800CTQ triac (16 A / 800 V, 3Q, IGT 35 mA, factory-isolated tab) driven by MOC3042M opto-triac via NPN low-side |
 | Daughter board | Reused from my "NanoFridgeThermostat" project (MOC3042M + snubber R 360 Ω / C 10 nF, TE 5.08 mm terminals, J5/J6 headers) |
 | Temperature | 2× K-type probes + 2× MAX6675 (shared SPI0): sacrificial board probe (PID control, CS GP17) + oven probe (supervision, CS GP20) |
@@ -134,7 +134,7 @@ Wiring details and BOM: `Electronics/Readme.md` and `Docs/InitialContext.md`.
 | **Back** button | GP13 | NO → GND + 100 nF |
 | Encoder push (reserve) | GP14 | free in the 2-button model |
 | Status LED | GP9 | via 330 Ω — solid = heating, blink = alarm, off = idle |
-| Buzzer | GP8 | via NPN, `#define` ACTIVE vs PWM |
+| Buzzer | GP8 | via NPN; `#define` ACTIVE vs PWM (passive 8 Ω/piezo → PWM + ~100 Ω series, NPN limit ~50 mA) |
 | Case fan (option) | GP6 | NPN + flyback + 10 kΩ pull-down, or direct on rail |
 | Power | pins 39/38/36 | VSYS / GND / 3V3 (probes) |
 

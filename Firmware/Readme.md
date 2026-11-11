@@ -32,7 +32,7 @@ The firmware is structured in **3 layers**. The pinout and HMI model are **froze
 | PWM | Slow PWM, period 200 ms – 5 s |
 | Cutoffs | **Profile-dependent:** board probe ~230 °C (SnBi autonomous) / ~300 °C ceiling (bench & SAC); oven probe absolute cutoff. Never apply SnBi cutoffs to a SAC run |
 | Directional alarm | In heating, air must lead board (gap > ~60 °C = runaway); inversion is normal in cooling |
-| Buzzer | Abstracted via `#define` (ACTIVE DC vs PASSIVE PWM — component from salvage) |
+| Buzzer | Abstracted via `#define` (ACTIVE DC vs PASSIVE PWM — component from salvage). Active 2-pin buzzer: direct NPN drive. Passive 8 Ω / piezo: PWM + ~100 Ω series resistor (NPN limit ~50 mA) |
 | Debounce | Hardware (100 nF caps) → firmware uses simple edge detection, no debounce code |
 | Quadrature | State-table decoding (IRQ or polling ≥ 1 kHz) |
 
@@ -85,20 +85,20 @@ t,sp,tc_board,tc_air,duty,STATE
 |----------|-----|-------|
 | Opto MOC (via NPN) | GP15 | base via 2.2–4.7 kΩ + 10 k pull-down |
 | SPI0 SCK / MISO | GP18 / GP16 | 2× MAX6675 shared bus |
-| CS board probe / CS oven probe | GP17 / GP20 | PID control / supervision |
-| I2C0 SDA / SCL | GP0 / GP1 | SSD1306 OLED @ 0x3C |
+| CS board probe / CS oven probe | GP17 / GP22 | PID control / supervision |
+| I2C0 SDA / SCL | GP20 / GP21 | SSD1306 OLED @ 0x3C |
 | UART1 TX / RX | GP4 / GP5 | HC-05 @ 115200 Bd |
 | Encoder A / B | GP10 / GP11 | 100 nF on A and B, quadrature decode |
 | **Edit** button | GP12 | NO → GND + 100 nF |
 | **Back** button | GP13 | NO → GND + 100 nF |
 | Encoder push (reserve) | GP14 | free in the 2-button model |
 | Status LED | GP9 | via 330 Ω — solid = heating, blink = alarm, off = idle |
-| Buzzer | GP8 | via NPN, `#define` ACTIVE vs PWM |
+| Buzzer | GP8 | via NPN. `#define` ACTIVE vs PWM: active 2-pin buzzer = direct NPN drive; passive 8 Ω speaker / piezo = PWM on GP8 **with ~100 Ω series resistor** (stay under the NPN's ~50 mA) |
 | Case fan (option) | GP6 | NPN + flyback + 10 k pull-down, or direct on rail |
 | Power | pins 39/38/36 | VSYS / GND / 3V3 (probes) |
 
 ### Measurement
-- 2× K-type probes + 2× MAX6675 on shared SPI0 (SCK GP18, MISO GP16; CS GP17 board, CS GP20 oven)
+- 2× K-type probes + 2× MAX6675 on shared SPI0 (SCK GP18, MISO GP16; CS GP17 board, CS GP22 oven)
 - Read rate ≤ 4 Hz (conversion 0.17–0.22 s), open-TC detection built in
 - **Board probe** (FR4 sacrificial PCB, **thermocouple bolted across a drilled hole**, reproducible position) = PID control. Mechanical fixing → no Kapton limit on the probe, SAC-compatible; Kapton only for positioning/isolation on the target board
 - **Oven probe** (original nut) = supervision: absolute cutoff ~230 °C SnBi autonomous / ~300 °C SAC & bench ceiling

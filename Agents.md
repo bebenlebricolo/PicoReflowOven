@@ -58,6 +58,7 @@ More profiles will be added over time, depending on **solder paste alloy** and *
 - **Sacrificial board probe fixation — RESOLVED:** the probe is **mechanically bolted through a drilled FR4 plate** (thermocouple bolted across the board) — no Kapton temperature limit on the probe itself, SAC-compatible. Kapton is used only for positioning/isolation on the target board during a run.
 
 ### Key Design Decisions (do not reopen)
+- **MCU: Pico over Nano** — the Nano resets on DTR at every serial-port open, which would kill a running cycle (breaks the golden rule). The Pico also adds a second UART (HC-05 alongside USB CDC) and 264 KB RAM (full OLED framebuffer, no text-only HMI compromise). RP2040 GPIO drive strength caps at 12 mA (2/4/8/12) [DATASHEET] — moot for the opto since the NPN low-side pattern drives only ~1 mA of base current.
 - **Triac**: BTA316Y-800CTQ (WeEn, 16 A / 800 V, 3Q Hi-Commutation, IGT 35 mA, factory-isolated tab IITO-220). Drop-in replacement for FT0814MH (phase 1 only, bare tab, requires mica isolation kit).
 - **Opto drive**: NPN low-side pattern — "the GPIO is a signal, not a source". LED chain: 5V_EXT → 330 Ω → J5 → MOC3042 LED → J6 → NPN collector → emitter → GND. Base driven by GP15 via 2.2–4.7 kΩ + 10 kΩ pull-down. Zero GPIO current budget for the LED (~11.4 mA on 5V_EXT rail).
 - **SSR-25DA rejected** (mass counterfeits, same ~8 W dissipation at 6.5 A → heatsink needed anyway; genuine SSRs at 25–45 € buried).
