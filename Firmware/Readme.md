@@ -102,14 +102,14 @@ t,sp,tc_board,tc_air,duty,STATE
 | Power | pins 39/38/36 | VSYS / GND / 3V3 (probes) |
 
 ### Measurement
-- 2× K-type probes + 2× MAX6675 on shared SPI0 (SCK GP18, MISO GP16; CS GP17 board, CS GP22 oven)
+- 2× K-type probes + 2× MAX6675 on shared SPI0 (SCK GP18, MISO GP16, MOSI GP19; CS GP17 board, CS GP22 oven)
 - Read rate ≤ 4 Hz (conversion 0.17–0.22 s), open-TC detection built in
 - **Board probe** (FR4 sacrificial PCB, **thermocouple bolted across a drilled hole**, reproducible position) = PID control. Mechanical fixing → no Kapton limit on the probe, SAC-compatible; Kapton only for positioning/isolation on the target board
 - **Oven probe** (original nut) = supervision: absolute cutoff ~230 °C SnBi autonomous / ~300 °C SAC & bench ceiling
 - **Uniformity calibration** (once): board probe in 3 positions; acceptable gradient < 5–8 °C at peak
 
 ### Power
-- Certified USB charger 1 A → Schottky 1N5819/SS34 → VSYS (pin 39)
+- External USB-C module on **J4** → Schottky **D2 (1N5819)** → VSYS (pin 39); VBUS (pin 40) → R1 → D1 = power LED only
 - PC = data only (backup power via internal D1)
 - Budget ~275 mA running / ~400 mA peak → margin ≥ 2.5×
 - Optional 470–1000 µF reservoir cap

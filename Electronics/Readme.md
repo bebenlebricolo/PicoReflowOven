@@ -2,6 +2,8 @@
 
 This folder is the home of the Electronics designs (schematics, PCBs, BOM, wiring).
 
+The low-voltage control board schematic lives in [`PicoReflowOven/PicoReflowOven.kicad_sch`](PicoReflowOven/PicoReflowOven.kicad_sch) (KiCad 10) — it is the **as-built source of truth for the pinout** (see the pinout tables in the root `Readme.md` and `Firmware/Readme.md`). Regenerate the netlist with `kicad-cli sch export netlist`.
+
 The power section reuses a daughter board from the **NanoFridgeThermostat** project and drives a **230 V / 1500 W** convection oven through a triac. All design decisions below are frozen — see `Docs/InitialContext.md` for the full rationale.
 
 ---

@@ -5135,7 +5135,7 @@
 		(uuid "29afaf2b-1a8f-4cf9-874b-e198a98c0d4f")
 	)
 	(label "TFT_SD"
-		(at 49.53 66.04 180)
+		(at 49.53 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5245,7 +5245,7 @@
 		(uuid "717fc36d-312a-46ee-b8ed-c62103c6919d")
 	)
 	(label "SPI_CS2"
-		(at 49.53 68.58 180)
+		(at 49.53 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5434,6 +5434,16 @@
 		)
 		(uuid "a85f70b2-704d-48f1-905c-d6a576ab84dc")
 	)
+	(label "UART_TX"
+		(at 49.53 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a8de8b38-5a4a-458e-9f06-c0c63db7ea5f")
+	)
 	(label "3.3V"
 		(at 116.84 165.1 180)
 		(effects
@@ -5443,6 +5453,26 @@
 			(justify right bottom)
 		)
 		(uuid "ac35e591-fd36-460b-abf4-95b35ce71b65")
+	)
+	(label "BL_STATE"
+		(at 49.53 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c011d798-edac-4673-8934-5f9e6b1ce9a4")
+	)
+	(label "BL_ENABLE"
+		(at 49.53 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3811bc4-69e3-42a5-8e3c-47e14e01926a")
 	)
 	(label "EncoderB"
 		(at 264.16 72.39 180)
@@ -5493,6 +5523,16 @@
 			(justify right bottom)
 		)
 		(uuid "da7401ee-0d2b-4111-ab47-50d89412d1f1")
+	)
+	(label "UART_RX"
+		(at 49.53 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "daf6daa1-690b-4c72-8589-5da0bd594e63")
 	)
 	(label "SPI_CLK"
 		(at 95.25 63.5 0)
