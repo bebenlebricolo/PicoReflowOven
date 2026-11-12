@@ -2,7 +2,10 @@
 
 This folder will host the Pico firmware (C++ / pico-sdk) for the main board of this project.
 
-The firmware is structured in **3 layers**. The pinout and HMI model are **frozen** — see below and `Docs/InitialContext.md`.
+The firmware is structured in **3 layers**. The pinout and HMI model are **frozen** — see below.
+**Pinout reference: the KiCad schematic `Electronics/PicoReflowOven/PicoReflowOven.kicad_sch`**
+(net labels at the Pico pins). Decision history: `Docs/InitialContext.md`; integrated specs:
+`Docs/DesignDeepDive.md`.
 
 ---
 
@@ -79,15 +82,15 @@ t,sp,tc_board,tc_air,duty,STATE
 
 ---
 
-## Pinout (frozen)
+## Pinout (frozen — reference: KiCad schematic net labels)
 
 | Function | GP | Notes |
 |----------|-----|-------|
-| Opto MOC (via NPN) | GP15 | base via 2.2–4.7 kΩ + 10 k pull-down |
-| SPI0 SCK / MISO | GP18 / GP16 | 2× MAX6675 shared bus |
-| CS board probe / CS oven probe | GP17 / GP22 | PID control / supervision |
+| Opto MOC (`TriacDriver`, via NPN) | GP15 | base via 2.2–4.7 kΩ + 10 k pull-down |
+| SPI0 SCK / MISO / MOSI | GP18 / GP16 / GP19 | 2× MAX6675 shared bus |
+| CS board probe / CS oven probe / CS2 (`SPI_CS0/1/2`) | GP17 / GP22 / GP5 | PID control / supervision / spare (SD) |
 | I2C0 SDA / SCL | GP20 / GP21 | SSD1306 OLED @ 0x3C |
-| UART1 TX / RX | GP4 / GP5 | HC-05 @ 115200 Bd |
+| UART (HC-05 via J8) TX / RX | [OPEN] GP0/GP1 | Not yet labeled at the Pico in the schematic; GP0/GP1 free (UART0). GP4/GP5 are taken by `TFT_SD`/`SPI_CS2` — earlier docs listing UART on GP4/GP5 are superseded |
 | Encoder A / B | GP10 / GP11 | 100 nF on A and B, quadrature decode |
 | **Edit** button | GP12 | NO → GND + 100 nF |
 | **Back** button | GP13 | NO → GND + 100 nF |
@@ -95,6 +98,7 @@ t,sp,tc_board,tc_air,duty,STATE
 | Status LED | GP9 | via 330 Ω — solid = heating, blink = alarm, off = idle |
 | Buzzer | GP8 | via NPN. `#define` ACTIVE vs PWM: active 2-pin buzzer = direct NPN drive; passive 8 Ω speaker / piezo = PWM on GP8 **with ~100 Ω series resistor** (stay under the NPN's ~50 mA) |
 | Case fan (option) | GP6 | NPN + flyback + 10 k pull-down, or direct on rail |
+| Display option `TFT_RESET` / `TFT_SD` | GP3 / GP4 | SPI TFT + SD, see schematic |
 | Power | pins 39/38/36 | VSYS / GND / 3V3 (probes) |
 
 ### Measurement

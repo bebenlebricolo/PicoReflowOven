@@ -53,3 +53,4 @@ fp-info-cache
 
 # Globally ignore .cache folders (I use them for temporary stuff, but they can be large and are not needed in the repo)
 .cache
+.vscode
