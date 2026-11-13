@@ -1396,6 +1396,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -1943,6 +2066,30 @@
 		)
 		(uuid "9b9819be-a1bf-4fae-886d-10d5fcdb75ea")
 	)
+	(rectangle
+		(start 105.41 24.13)
+		(end 171.45 60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9c159a7e-cfe7-4aa7-944c-70f9d9f02833")
+	)
+	(text "Buttons (Normally Open)"
+		(exclude_from_sim no)
+		(at 223.012 25.146 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+			)
+		)
+		(uuid "002fe40f-c1bb-4f5e-8445-87830aaf976d")
+	)
 	(text "Power Good\nIndicator"
 		(exclude_from_sim no)
 		(at 114.808 54.864 0)
@@ -1962,6 +2109,18 @@
 			)
 		)
 		(uuid "45a039cf-548a-4e90-acd0-94b6d406112e")
+	)
+	(text "Status LEDs"
+		(exclude_from_sim no)
+		(at 140.208 21.59 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+			)
+		)
+		(uuid "580cccaf-a66e-4e25-9c37-ccf951e79d3e")
 	)
 	(text "Indicates when\nthe Triac\nis Triggered"
 		(exclude_from_sim no)
@@ -1986,6 +2145,12 @@
 		(uuid "52731bb4-3418-49c8-a127-00a27ae85837")
 	)
 	(junction
+		(at 213.36 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "630fb0f3-c6ef-4a09-b579-e41d2ae8eef7")
+	)
+	(junction
 		(at 204.47 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1996,6 +2161,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ef97c43-ccb5-4a3f-9b74-2de568a1bbdc")
+	)
+	(junction
+		(at 213.36 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81c4b89c-9a93-4f80-8443-95765a009609")
 	)
 	(junction
 		(at 238.76 88.9)
@@ -2020,6 +2191,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6d6e290-595d-4d52-84c2-bca159e4af29")
+	)
+	(junction
+		(at 213.36 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfe76126-2afb-454c-a13a-183bcaf8dda7")
 	)
 	(junction
 		(at 234.95 39.37)
@@ -2056,6 +2233,16 @@
 			(type default)
 		)
 		(uuid "2617bd49-3870-4c98-b58f-092a9f757e56")
+	)
+	(wire
+		(pts
+			(xy 213.36 120.65) (xy 213.36 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26abde7c-3462-4ea3-bcfe-7a1852c40d86")
 	)
 	(wire
 		(pts
@@ -2099,6 +2286,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 123.19) (xy 213.36 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f293bdf-7287-478a-9c06-6e77d3c3a50f")
+	)
+	(wire
+		(pts
 			(xy 234.95 39.37) (xy 245.11 39.37)
 		)
 		(stroke
@@ -2106,6 +2303,16 @@
 			(type default)
 		)
 		(uuid "4f2f763c-3e1e-46be-9d95-7a3d35be96ca")
+	)
+	(wire
+		(pts
+			(xy 213.36 120.65) (xy 215.9 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5568010e-5e7c-4ce7-8fa7-7eb0c3ffb2b6")
 	)
 	(wire
 		(pts
@@ -2169,6 +2376,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 113.03) (xy 213.36 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89548af4-7462-4e8e-abd1-8e71f1cf7c55")
+	)
+	(wire
+		(pts
 			(xy 204.47 49.53) (xy 209.55 49.53)
 		)
 		(stroke
@@ -2216,6 +2433,16 @@
 			(type default)
 		)
 		(uuid "9d53febc-c35c-4793-aadd-64cfda5b9a38")
+	)
+	(wire
+		(pts
+			(xy 213.36 118.11) (xy 213.36 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ebe6532-1ebb-4a20-a632-f62b8ba158db")
 	)
 	(wire
 		(pts
@@ -2681,6 +2908,237 @@
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0afd6483-0678-4eea-945c-f5190e97b0c7")
+		(property "Reference" "#PWR026"
+			(at 222.25 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 120.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2849bed8-7a20-4dc5-8642-4bb64437d28d")
+		)
+		(instances
+			(project "PicoReflowOven"
+				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 210.82 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0db12227-4089-4266-a666-1da1aa75e7ea")
+		(property "Reference" "H5"
+			(at 203.454 110.998 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 197.866 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
+			(at 210.82 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 210.82 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ed777ba-1496-41bd-b0c4-d9308ce1febd")
+		)
+		(instances
+			(project "PicoReflowOven"
+				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 210.82 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "12b91774-a3f4-4e2c-9b27-debb39b78877")
+		(property "Reference" "H6"
+			(at 203.454 116.078 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 197.866 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
+			(at 210.82 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 210.82 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69562a38-a855-4e28-9ecb-e6975c874db4")
+		)
+		(instances
+			(project "PicoReflowOven"
+				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -3580,6 +4038,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 210.82 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "79fe232c-c33e-4663-818a-eb4c9e3bd762")
+		(property "Reference" "H7"
+			(at 203.454 121.158 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 197.866 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
+			(at 210.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 210.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18bc41fa-3754-4f96-afda-b7bed8c35346")
+		)
+		(instances
+			(project "PicoReflowOven"
+				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 243.84 69.85 90)
 		(unit 1)
@@ -3653,6 +4187,82 @@
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 210.82 128.27 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "88976692-6dad-4780-8c9f-efb8ab706458")
+		(property "Reference" "H8"
+			(at 203.454 126.238 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 197.866 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
+			(at 210.82 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 210.82 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc687c50-a46d-48e3-a2cb-285208432ae9")
+		)
+		(instances
+			(project "PicoReflowOven"
+				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
+					(reference "H8")
 					(unit 1)
 				)
 			)
