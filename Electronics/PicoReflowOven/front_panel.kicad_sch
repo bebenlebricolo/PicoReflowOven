@@ -1926,7 +1926,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "power:GNDREF"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1951,7 +1951,7 @@
 					)
 				)
 			)
-			(property "Value" "GND"
+			(property "Value" "GNDREF"
 				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1983,7 +1983,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2005,10 +2005,46 @@
 					)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "GNDREF_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -2019,7 +2055,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "GNDREF_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -2133,12 +2169,6 @@
 		(uuid "f4e4668c-ff79-4c87-95bb-f64e89168eef")
 	)
 	(junction
-		(at 207.01 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24764bd2-8e21-4e67-97b9-08149f0850c2")
-	)
-	(junction
 		(at 240.03 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2149,6 +2179,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "630fb0f3-c6ef-4a09-b579-e41d2ae8eef7")
+	)
+	(junction
+		(at 207.01 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7368bd09-972a-4290-8c26-f5ea6b4a9b06")
 	)
 	(junction
 		(at 204.47 49.53)
@@ -2216,6 +2252,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 90.17) (xy 210.82 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f1cb7ca-daad-4125-860b-c8db44f93377")
+	)
+	(wire
+		(pts
 			(xy 210.82 90.17) (xy 210.82 87.63)
 		)
 		(stroke
@@ -2223,6 +2269,16 @@
 			(type default)
 		)
 		(uuid "2143b4db-156f-4051-974a-0b0d358851db")
+	)
+	(wire
+		(pts
+			(xy 207.01 90.17) (xy 207.01 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21f4f0a0-811c-42a9-a463-b7d49c442a06")
 	)
 	(wire
 		(pts
@@ -2453,16 +2509,6 @@
 			(type default)
 		)
 		(uuid "b6f5c0c7-0682-46e5-a930-2587c653edae")
-	)
-	(wire
-		(pts
-			(xy 207.01 90.17) (xy 210.82 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c76cae7d-8e71-470a-9a0e-c1accd58ea47")
 	)
 	(wire
 		(pts
@@ -2745,84 +2791,6 @@
 		(uuid "f9186c5b-8173-4548-ad8c-10928edd9248")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 207.01 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "064b1985-7861-4f56-9bb4-a7073fdc0de0")
-		(property "Reference" "#PWR010"
-			(at 207.01 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 207.01 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dd4689b0-a76f-4d0a-afdf-3605af498e00")
-		)
-		(instances
-			(project "PicoReflowOven"
-				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 134.62 40.64 270)
 		(mirror x)
@@ -2914,85 +2882,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 215.9 120.65 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0afd6483-0678-4eea-945c-f5190e97b0c7")
-		(property "Reference" "#PWR026"
-			(at 222.25 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 219.71 120.6499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2849bed8-7a20-4dc5-8642-4bb64437d28d")
-		)
-		(instances
-			(project "PicoReflowOven"
-				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 210.82 113.03 90)
 		(unit 1)
@@ -3063,6 +2952,85 @@
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 62.23 53.34 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1060dd4a-061c-4ed0-9a90-aec4e14d633c")
+		(property "Reference" "#PWR020"
+			(at 55.88 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 58.42 53.3399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 62.23 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3435fd83-46d7-436f-9399-b4bd5dda2aa5")
+		)
+		(instances
+			(project "PicoReflowOven"
+				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -3145,8 +3113,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 240.03 78.74 270)
+		(lib_id "power:GNDREF")
+		(at 207.01 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3155,9 +3123,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "17b03f4d-bf42-4a54-9908-3eb516ce7647")
-		(property "Reference" "#PWR06"
-			(at 233.68 78.74 0)
+		(uuid "1b7c03cd-df68-4cfd-a805-5a27771d7569")
+		(property "Reference" "#PWR035"
+			(at 207.01 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3167,19 +3135,18 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 236.22 78.7399 90)
+		(property "Value" "GNDREF"
+			(at 207.01 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 78.74 0)
+			(at 207.01 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3190,7 +3157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 78.74 0)
+			(at 207.01 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3200,8 +3167,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 78.74 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 207.01 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3212,12 +3179,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7364464d-76b3-4923-8c72-743dcf88676d")
+			(uuid "d465198c-f82b-40ab-bac4-692e45c61734")
 		)
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
-					(reference "#PWR06")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -3552,8 +3519,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 62.23 53.34 270)
+		(lib_id "power:GNDREF")
+		(at 113.03 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3562,9 +3529,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "57ceb9b7-7255-4904-9c30-40ee03937f2d")
-		(property "Reference" "#PWR020"
-			(at 55.88 53.34 0)
+		(uuid "48305ba6-0631-44cf-bb80-c679fafaf673")
+		(property "Reference" "#PWR028"
+			(at 113.03 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3574,19 +3541,18 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 58.42 53.3399 90)
+		(property "Value" "GNDREF"
+			(at 113.03 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 53.34 0)
+			(at 113.03 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3597,7 +3563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 53.34 0)
+			(at 113.03 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3607,8 +3573,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 53.34 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 113.03 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3619,12 +3585,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ca009e4-fda4-4832-9f35-b10314e3ad5b")
+			(uuid "eeda2d44-c6a0-4117-a917-00eb0e540dde")
 		)
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
-					(reference "#PWR020")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3789,84 +3755,6 @@
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 134.62 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67bcdf28-3ef8-439e-afaa-10b2ec1e4aaf")
-		(property "Reference" "#PWR016"
-			(at 134.62 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "840bf93b-0d11-47d7-beb0-e9b4b7b5bfbe")
-		)
-		(instances
-			(project "PicoReflowOven"
-				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4114,7 +4002,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDREF")
 		(at 243.84 69.85 90)
 		(unit 1)
 		(body_style 1)
@@ -4124,8 +4012,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "80a58adf-3ea9-4e89-8955-8244db90b40e")
-		(property "Reference" "#PWR08"
+		(uuid "7eefeb83-4a1d-48da-b3f6-9516f8e91bf8")
+		(property "Reference" "#PWR033"
 			(at 250.19 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4136,7 +4024,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDREF"
 			(at 247.65 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4169,7 +4057,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 			(at 243.84 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4181,12 +4069,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a84cc654-897e-49cb-9eb6-0e5677336301")
+			(uuid "901dbd0a-526d-4513-afb1-ebc9f15be777")
 		)
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
-					(reference "#PWR08")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4269,6 +4157,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 240.03 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92fc592b-1a98-4c6f-a792-b7c91d0ef49d")
+		(property "Reference" "#PWR032"
+			(at 240.03 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 240.03 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 240.03 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9794f1c4-887c-4362-ac36-36bb6f0339e6")
+		)
+		(instances
+			(project "PicoReflowOven"
+				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 245.11 44.45 0)
 		(unit 1)
@@ -4345,6 +4311,84 @@
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 134.62 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98d2f4a7-18bf-4d47-aa0d-aee6857dfa54")
+		(property "Reference" "#PWR029"
+			(at 134.62 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 134.62 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 134.62 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d858cda-0408-425d-94f0-2f529d782f31")
+		)
+		(instances
+			(project "PicoReflowOven"
+				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4608,84 +4652,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 240.03 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a70af39e-1d6d-4f48-83e4-539d709d8fcd")
-		(property "Reference" "#PWR05"
-			(at 240.03 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 240.03 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8ab25c6c-74fa-45e9-b16d-7b32338e6c8f")
-		)
-		(instances
-			(project "PicoReflowOven"
-				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 234.95 69.85 90)
 		(mirror x)
@@ -4768,8 +4734,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 243.84 88.9 90)
+		(lib_id "power:GNDREF")
+		(at 240.03 78.74 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4778,9 +4744,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b9717b9f-6083-4f1f-95eb-0b2d3c019499")
-		(property "Reference" "#PWR07"
-			(at 250.19 88.9 0)
+		(uuid "b42c8cf8-d460-428a-b048-f4703791677b")
+		(property "Reference" "#PWR037"
+			(at 233.68 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4790,8 +4756,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 247.65 88.8999 90)
+		(property "Value" "GNDREF"
+			(at 236.22 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4802,7 +4768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 88.9 0)
+			(at 240.03 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4813,7 +4779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 88.9 0)
+			(at 240.03 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4823,8 +4789,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 88.9 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 240.03 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4835,20 +4801,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "3c6b42be-5209-4170-be88-7779e1bf1e63")
+			(uuid "63857d69-030b-47e9-aa56-3992679555ba")
 		)
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
-					(reference "#PWR07")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 204.47 52.07 0)
+		(lib_id "power:GNDREF")
+		(at 154.94 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4857,9 +4823,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bab9613c-b57d-4d9c-b8a7-deccd2988674")
-		(property "Reference" "#PWR04"
-			(at 204.47 58.42 0)
+		(uuid "bd4277c2-9ac2-494c-9f9f-87f4ee50588a")
+		(property "Reference" "#PWR030"
+			(at 154.94 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4869,8 +4835,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 204.47 57.15 0)
+		(property "Value" "GNDREF"
+			(at 154.94 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4880,7 +4846,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 52.07 0)
+			(at 154.94 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4891,7 +4857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 52.07 0)
+			(at 154.94 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4901,8 +4867,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 52.07 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 154.94 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4913,12 +4879,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce243c9e-00cb-4c62-ad74-6bc5b118345d")
+			(uuid "545710f3-e9ee-40f0-be61-81e461bf3bc8")
 		)
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
-					(reference "#PWR04")
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 215.9 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c580f10a-cda0-4da9-8ac2-c3420dd0281f")
+		(property "Reference" "#PWR036"
+			(at 222.25 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 219.71 120.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 215.9 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76ecda6c-7974-47a5-93f1-f02b61f2a564")
+		)
+		(instances
+			(project "PicoReflowOven"
+				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -5118,7 +5163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x11_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical"
 			(at 67.31 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5370,84 +5415,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 113.03 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3a0c9df-78ae-4b16-baaa-69a9112b3915")
-		(property "Reference" "#PWR02"
-			(at 113.03 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eaee2c3f-e243-4169-8b5c-df499b42f999")
-		)
-		(instances
-			(project "PicoReflowOven"
-				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:RotaryEncoder")
 		(at 247.65 78.74 0)
 		(unit 1)
@@ -5526,6 +5493,84 @@
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 204.47 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f00418f9-9710-4366-94f5-2f2acc264788")
+		(property "Reference" "#PWR031"
+			(at 204.47 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 204.47 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 204.47 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce4c57f7-4b65-4553-ac3f-f2277cbd07cb")
+		)
+		(instances
+			(project "PicoReflowOven"
+				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5642,8 +5687,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 154.94 44.45 0)
+		(lib_id "power:GNDREF")
+		(at 243.84 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5652,9 +5697,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f1b14a15-eefa-42b9-8179-e011b4bd9c93")
-		(property "Reference" "#PWR011"
-			(at 154.94 50.8 0)
+		(uuid "f325282d-e9ba-4f21-aadd-09cc47baa9fb")
+		(property "Reference" "#PWR034"
+			(at 250.19 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5664,18 +5709,19 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 154.94 49.53 0)
+		(property "Value" "GNDREF"
+			(at 247.65 88.8999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 44.45 0)
+			(at 243.84 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5686,7 +5732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 44.45 0)
+			(at 243.84 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5696,8 +5742,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 44.45 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 243.84 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5708,12 +5754,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb406723-8398-4976-b7ac-fb0698b120cd")
+			(uuid "ece5b2a3-20c2-4375-ac47-b47db10f6efd")
 		)
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b/4384efec-54ec-4e57-8b8a-9cfe0e4c7dbe"
-					(reference "#PWR011")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
