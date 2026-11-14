@@ -3,4 +3,5 @@
 	(lib (name "TEConnectors") (type "KiCad") (uri "${KIPRJMOD}/FootprintLibs/TEConnectors.pretty") (options "") (descr ""))
 	(lib (name "Panelization") (type "KiCad") (uri "${KIPRJMOD}/FootprintLibs/Panelization.pretty") (options "") (descr ""))
 	(lib (name "CurrentTransformer") (type "KiCad") (uri "${KIPRJMOD}/FootprintLibs/CurrentTransformer.pretty") (options "") (descr ""))
+	(lib (name "Logos") (type "KiCad") (uri "${KIPRJMOD}/FootprintLibs/Logos.pretty") (options "") (descr ""))
 )

@@ -54,12 +54,12 @@
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
-          "fill_mode": 0,
-          "hatch_gap": 1.5,
-          "hatch_orientation": 0.0,
-          "hatch_smoothing_level": 0,
+          "fill_mode": 1,
+          "hatch_gap": 0.5,
+          "hatch_orientation": 45.0,
+          "hatch_smoothing_level": 1,
           "hatch_smoothing_value": 0.1,
-          "hatch_thickness": 1.0,
+          "hatch_thickness": 0.4,
           "min_clearance": 2.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
@@ -76,72 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_issues|115650000|105437500|431aca94-8a0f-4c04-b83f-5ccbee0fb29f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|133150000|105437500|af3488ae-5f15-4d8c-b6c3-c3bab37769e3|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|141062500|49000000|838be4e5-df4e-4a04-aed9-a6c077d8862b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|141062500|65150000|122afe45-446f-4a68-b8fd-081ae550f6ce|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|141062500|83150000|1c6764c3-3555-4cf4-83d0-c77455d90f50|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|141062500|99000000|fb14e91c-2a37-468b-aa1e-c10535f9c497|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|150550000|105437500|0aa56335-ddac-408b-8523-efb9188ef12c|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|163500000|105450000|7df5373d-607d-4fd7-a489-744ab5754407|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|98350000|105437500|ae2900be-d7ad-4ee6-9f09-b956a0b68d4d|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|113190000|60322500|51e703a7-6b05-4978-a161-cd47500c3a50|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|142300000|123665000|8a0e8122-b672-486b-a08e-f0ae4f255a28|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|98900000|92100000|d939b30d-73ac-4458-a0dc-a5c7846faf54|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_edge_clearance|105000000|119340000|f6f30989-2719-47d7-822a-77d833e2e52b|257b2fcf-ff05-455e-ab9e-043db1879419",
-          ""
-        ],
-        [
-          "silk_edge_clearance|107000000|119439874|1c2aba45-872e-4ef5-ba4d-97b21cd0037f|4de03c14-7b1d-4560-b4d6-cf29c9853937",
-          ""
-        ],
-        [
-          "silk_edge_clearance|107000000|127080000|1c2aba45-872e-4ef5-ba4d-97b21cd0037f|1815e5b3-fc11-44da-b390-e22689f548c9",
-          ""
-        ],
-        [
-          "silk_edge_clearance|107005000|119340000|1c2aba45-872e-4ef5-ba4d-97b21cd0037f|33861d3e-f3b8-43cb-b1dd-a74973893058",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -766,7 +701,7 @@
         "uuid": "2911df2a-f973-4196-975f-35f045e68959"
       }
     ],
-    "used_designators": "#FLG1-2,#PWR1-38,A1,BZ1,C1-7,D1-5,H1-12,HS1,J1-15,Q1-4,R1-21,SW1-6,TP1-6,U1",
+    "used_designators": "#FLG1-2,#PWR1-38,A1,BZ1,C1-7,D1-5,H1-13,HS1,J1-15,Q1-4,R1-21,SW1-6,TP1-6,U1",
     "variants": []
   },
   "sheets": [
