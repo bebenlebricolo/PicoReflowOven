@@ -124,9 +124,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Fab/Gerbers/")
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.5mm_Pad_Via"
