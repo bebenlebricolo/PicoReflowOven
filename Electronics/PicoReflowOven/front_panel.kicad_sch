@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "2918b4f3-a192-42ed-8db0-a99651c16f9c")
 	(paper "A4")
+	(title_block
+		(title "PicoReflowOven Front Panel board")
+		(date "2026-11-14")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x11"
 			(pin_names
@@ -2740,6 +2745,16 @@
 		)
 		(uuid "ce1c5740-05f6-4d9c-a098-0430fef45431")
 	)
+	(label "TriacStat"
+		(at 134.62 36.83 180)
+		(effects
+			(font
+				(size 0.381 0.381)
+			)
+			(justify right bottom)
+		)
+		(uuid "d079634e-e0a0-49c1-b29b-9238fc638791")
+	)
 	(label "VBusUsbPC"
 		(at 113.03 29.21 0)
 		(effects
@@ -2749,6 +2764,26 @@
 			(justify left bottom)
 		)
 		(uuid "d28c0b37-7e3f-43f7-9948-d30d129ef662")
+	)
+	(label "Status"
+		(at 154.94 36.83 180)
+		(effects
+			(font
+				(size 0.381 0.381)
+			)
+			(justify right bottom)
+		)
+		(uuid "d47bcfbe-dfaa-49ee-ba7b-dac73535b2a2")
+	)
+	(label "UsbPower"
+		(at 113.03 36.83 180)
+		(effects
+			(font
+				(size 0.381 0.381)
+			)
+			(justify right bottom)
+		)
+		(uuid "e2828bb6-6692-440a-be32-e52469254508")
 	)
 	(label "Buzzer"
 		(at 62.23 50.8 180)

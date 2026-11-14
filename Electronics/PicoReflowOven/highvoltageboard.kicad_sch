@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "cbbd75f8-04da-44c7-858b-1b616347060e")
 	(paper "A4")
+	(title_block
+		(date "2026-11-14")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
@@ -1648,6 +1652,83 @@
 		(uuid "323efb8e-e089-4e0d-9229-d35cc02d5fbd")
 	)
 	(rectangle
+		(start 177.8 42.926)
+		(end 277.876 60.706)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "54a6ffe2-d403-4fb1-89c5-399d37a8faa5")
+	)
+	(arc
+		(start 171.45 91.44)
+		(mid 170.3979 88.9)
+		(end 171.45 86.36)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "72034672-f2d9-4408-b883-68fe61d540dd")
+	)
+	(arc
+		(start 171.45 86.36)
+		(mid 172.085 86.097)
+		(end 172.72 86.36)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8bf23150-ff44-4680-84f0-9bdd8ae43e9f")
+	)
+	(arc
+		(start 172.72 91.44)
+		(mid 172.085 91.703)
+		(end 171.45 91.44)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9476c2ee-e6f1-45ea-af86-a49071944358")
+	)
+	(arc
+		(start 170.18 85.09)
+		(mid 172.085 84.3009)
+		(end 173.99 85.09)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "99238627-9d1f-4063-833f-30ce6e5f4634")
+	)
+	(arc
+		(start 172.72 86.36)
+		(mid 173.7721 88.9)
+		(end 172.72 91.44)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9bff6619-061b-4f8f-8531-c478df8020e8")
+	)
+	(rectangle
 		(start 87.63 67.31)
 		(end 123.19 73.66)
 		(stroke
@@ -1659,6 +1740,58 @@
 		)
 		(uuid "9db3ad32-4881-423d-8567-ca7a8394f682")
 	)
+	(arc
+		(start 170.18 92.71)
+		(mid 168.6018 88.9)
+		(end 170.18 85.09)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ba97dd62-e812-4776-8606-ec43ae7f47e8")
+	)
+	(circle
+		(center 172.0927 84.3081)
+		(radius 0.1754)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid "bb4eb0ea-8707-4431-8ef6-9963d5c37bd1")
+	)
+	(arc
+		(start 173.99 85.09)
+		(mid 175.5682 88.9)
+		(end 173.99 92.71)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "bde1db61-1e32-49a8-88fc-63a58911ba19")
+	)
+	(arc
+		(start 173.99 92.71)
+		(mid 172.085 93.4991)
+		(end 170.18 92.71)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c9767ebb-d3a7-4278-acb8-e32da0354db3")
+	)
 	(text "13-11-2026 (dd-mm-yyyy)"
 		(exclude_from_sim no)
 		(at 221.742 193.294 0)
@@ -1668,6 +1801,17 @@
 			)
 		)
 		(uuid "0872896f-fd5a-4532-82b5-fcd590d6e120")
+	)
+	(text "Note: this wire could go through a current sensing transformer attached\nto its burden resistor, in order to read live current figures.\nThis can be very useful to calculate the average current being drawn by the \nresistive elements, and thus compute the oven's real power.\n\nNote2: Real power can be computed as the heating elements are behaving as purely resistive loads, \nhence not contributing to phase shift between the current/voltage signals."
+		(exclude_from_sim no)
+		(at 179.07 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ab9c01d-38d4-4478-92ac-484fcd54a529")
 	)
 	(text "Adapted to a 5V rail (VSys is connected\nto USB 5V charger in series with a schottky diode\nwith a forward voltage drop of around 0.9V Max"
 		(exclude_from_sim no)
@@ -1738,6 +1882,12 @@
 		(uuid "40249d17-30a6-41d4-bc53-2995ab70657f")
 	)
 	(junction
+		(at 107.95 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5355e7ed-41cf-42c5-842d-aa436cac947f")
+	)
+	(junction
 		(at 177.8 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1778,6 +1928,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa2620ab-d14f-48ca-9fd7-b36d9b673648")
+	)
+	(junction
+		(at 124.46 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4fce74f-c416-4f78-9fba-f7ceaacc6d76")
 	)
 	(junction
 		(at 104.14 93.98)
@@ -1826,6 +1982,16 @@
 			(type default)
 		)
 		(uuid "1401bdea-547b-40dc-a23a-41dcf5e7c707")
+	)
+	(wire
+		(pts
+			(xy 124.46 82.55) (xy 124.46 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a97b67-2a46-4d4b-b460-458ae3490c21")
 	)
 	(wire
 		(pts
@@ -1969,7 +2135,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 88.9) (xy 125.73 88.9)
+			(xy 123.19 88.9) (xy 124.46 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1996,6 +2162,16 @@
 			(type default)
 		)
 		(uuid "8bc0d3a6-b26c-4596-82a9-31bfc08cac80")
+	)
+	(wire
+		(pts
+			(xy 124.46 88.9) (xy 125.73 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c1eca6c-460a-417e-87fb-2f209dd2ffdd")
 	)
 	(wire
 		(pts
@@ -2119,6 +2295,26 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 88.9) (xy 107.95 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a09ff4-8e6c-40b9-a20c-de80ef2c7b32")
+	)
+	(polyline
+		(pts
+			(xy 172.085 54.61) (xy 177.8 54.61)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "d79ea382-27e1-4206-86f6-44eef43fdc88")
+	)
+	(wire
+		(pts
 			(xy 92.71 48.26) (xy 92.71 54.61)
 		)
 		(stroke
@@ -2156,6 +2352,16 @@
 			(type default)
 		)
 		(uuid "e4bfd731-72b9-4248-8389-f3f8ca132b56")
+	)
+	(wire
+		(pts
+			(xy 107.95 78.74) (xy 110.49 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6828c3-c2f2-4bed-8a4b-4cb568e7983e")
 	)
 	(wire
 		(pts
@@ -2197,6 +2403,16 @@
 		)
 		(uuid "faf57cfe-102c-4601-abbf-cea02bab5ea6")
 	)
+	(polyline
+		(pts
+			(xy 172.085 84.455) (xy 172.085 54.61)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "ff030a4b-d213-40c2-b644-ec6bd9ab7509")
+	)
 	(label "SnubberResLow"
 		(at 153.67 99.06 180)
 		(effects
@@ -2217,6 +2433,16 @@
 		)
 		(uuid "39156db3-839f-484e-972b-7c3c418bb35f")
 	)
+	(label "HV{slash}OptoLive"
+		(at 124.46 82.55 180)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d96c2c0-e720-422a-ad88-ef82b699a795")
+	)
 	(label "TriacLowSideSwitch"
 		(at 102.87 96.52 180)
 		(effects
@@ -2226,6 +2452,16 @@
 			(justify right bottom)
 		)
 		(uuid "3f3f639c-83fb-4dfb-84a7-370641a21d75")
+	)
+	(label "LV{slash}OptoLedIn"
+		(at 110.49 78.74 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fc857c3-802f-4f31-9425-bfdc5a8d6a6d")
 	)
 	(label "HeatingElemWire1"
 		(at 185.42 81.28 0)
@@ -2246,6 +2482,16 @@
 			(justify right bottom)
 		)
 		(uuid "619d1e5a-16a1-4e53-bd8c-7404cdc49022")
+	)
+	(label "HV{slash}OptoGate"
+		(at 130.81 95.25 180)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify right bottom)
+		)
+		(uuid "f6ee06a8-337b-41ac-a000-89df456cfd76")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
