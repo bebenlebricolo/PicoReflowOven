@@ -4249,6 +4249,18 @@
 		(uuid "ad657a4a-3075-4804-a356-32c60f29506a")
 	)
 	(rectangle
+		(start 289.56 72.39)
+		(end 344.17 119.38)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b1b70c44-9a22-4d14-87a0-cc6b75019060")
+	)
+	(rectangle
 		(start 91.44 21.59)
 		(end 105.41 26.67)
 		(stroke
@@ -4457,6 +4469,16 @@
 		)
 		(uuid "7b223178-7aba-4e3e-a2b0-374e3e948ae8")
 	)
+	(text "Controls the cooling fan blowing on the thermocontact."
+		(exclude_from_sim no)
+		(at 317.754 74.676 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8d507b4f-b24f-4fad-829a-cac5fceaefff")
+	)
 	(text "Optional free SPI connector\n(used if a SPI display is used rather\nthan the cheap I2C OLED one)"
 		(exclude_from_sim no)
 		(at 153.162 158.75 0)
@@ -4567,10 +4589,22 @@
 		(uuid "0546ef37-ff63-409b-b454-3d4ddd036569")
 	)
 	(junction
+		(at 325.12 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c504a49-d865-4720-a681-8a06adc3901f")
+	)
+	(junction
 		(at 227.33 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "237e6497-e687-4e25-9ff2-d97a94d5c19c")
+	)
+	(junction
+		(at 325.12 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bb440ea-f55c-497c-b7c2-e2ff3e59a4f6")
 	)
 	(junction
 		(at 88.9 34.29)
@@ -4603,12 +4637,6 @@
 		(uuid "96bf7311-fb18-4205-b13e-d31894ada1ae")
 	)
 	(junction
-		(at 40.64 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97eddeb8-1a67-4309-a986-c8503554c3dc")
-	)
-	(junction
 		(at 238.76 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4637,6 +4665,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebee3556-a6cf-475d-bce0-e23c153bda34")
+	)
+	(junction
+		(at 320.04 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec94386e-a05e-4e24-aa4c-ae29371b3426")
+	)
+	(junction
+		(at 314.96 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f59a1433-b486-4d8a-b561-4b85ca3058d4")
 	)
 	(junction
 		(at 254 36.83)
@@ -4772,6 +4812,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 80.01) (xy 325.12 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a7df2d2-cd60-4591-be75-77227aa7970f")
+	)
+	(wire
+		(pts
 			(xy 105.41 180.34) (xy 105.41 185.42)
 		)
 		(stroke
@@ -4782,16 +4832,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 92.71) (xy 71.12 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2389934f-b7cb-4dea-ae39-ddc1acb68e3d")
-	)
-	(wire
-		(pts
 			(xy 257.81 34.29) (xy 248.92 34.29)
 		)
 		(stroke
@@ -4799,6 +4839,26 @@
 			(type default)
 		)
 		(uuid "2810ff54-2642-4758-a575-efd0586e8760")
+	)
+	(wire
+		(pts
+			(xy 320.04 109.22) (xy 325.12 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28cf127e-7e84-4f51-ac6c-30a23908ea39")
+	)
+	(wire
+		(pts
+			(xy 325.12 91.44) (xy 325.12 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a619664-d037-440c-a226-89c5fb76f276")
 	)
 	(wire
 		(pts
@@ -4829,6 +4889,16 @@
 			(type default)
 		)
 		(uuid "2f7248f3-b69b-4bc1-81df-0d501a1fe0f3")
+	)
+	(wire
+		(pts
+			(xy 320.04 83.82) (xy 325.12 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c1e41c-f18e-4ee9-b023-b75c81be67c6")
 	)
 	(wire
 		(pts
@@ -4869,6 +4939,16 @@
 			(type default)
 		)
 		(uuid "3a033a3b-e05c-4cdd-83a4-9974fc707ff7")
+	)
+	(wire
+		(pts
+			(xy 314.96 109.22) (xy 320.04 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a85cef2-2605-4c0b-899b-bc623ca6b32b")
 	)
 	(wire
 		(pts
@@ -4969,6 +5049,16 @@
 			(type default)
 		)
 		(uuid "53e45ced-18e5-476a-ab29-dc09f4a22f1d")
+	)
+	(wire
+		(pts
+			(xy 300.99 99.06) (xy 306.07 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c2ea960-1186-4d99-9603-d271281d3fd7")
 	)
 	(wire
 		(pts
@@ -5102,6 +5192,26 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 109.22) (xy 320.04 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eaf42af-bc5f-43c2-99ad-f02faf08ba1f")
+	)
+	(wire
+		(pts
+			(xy 325.12 88.9) (xy 325.12 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a10bf656-b051-465e-afa2-0a3628d12261")
+	)
+	(wire
+		(pts
 			(xy 241.3 99.06) (xy 241.3 101.6)
 		)
 		(stroke
@@ -5132,6 +5242,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 99.06) (xy 314.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a890201b-9b70-4525-b224-c844252966d6")
+	)
+	(wire
+		(pts
 			(xy 66.04 34.29) (xy 69.85 34.29)
 		)
 		(stroke
@@ -5139,6 +5259,26 @@
 			(type default)
 		)
 		(uuid "abed7db9-88fc-4392-b25f-47c9294b073e")
+	)
+	(wire
+		(pts
+			(xy 320.04 91.44) (xy 325.12 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf01552-ab81-4543-84e2-11fde4fa4430")
+	)
+	(wire
+		(pts
+			(xy 325.12 83.82) (xy 325.12 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b269525d-2f08-4474-9d45-9fa321a9ab77")
 	)
 	(wire
 		(pts
@@ -5262,13 +5402,23 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 54.61) (xy 40.64 59.69)
+			(xy 313.69 99.06) (xy 314.96 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec23ff43-28b0-49b7-9d73-e83b3bbc5f67")
+		(uuid "e8a0a822-c0d8-4aa6-9eea-d12c28e4410e")
+	)
+	(wire
+		(pts
+			(xy 314.96 99.06) (xy 317.5 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8dfb990-1f81-4214-80b2-284b6b1b92e8")
 	)
 	(polyline
 		(pts
@@ -5339,6 +5489,16 @@
 			(type default)
 		)
 		(uuid "fb3a2a4c-caa3-4df3-a95d-064559442650")
+	)
+	(wire
+		(pts
+			(xy 325.12 109.22) (xy 325.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0f2cd2-4156-4bac-b9ca-9354baeb6745")
 	)
 	(wire
 		(pts
@@ -6321,6 +6481,16 @@
 		)
 		(uuid "0b5a66df-88ae-44c6-bf07-b78f7cb2212d")
 	)
+	(label "12VDC"
+		(at 325.12 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e03fef5-f11e-4adf-bf40-da81891929d7")
+	)
 	(label "UART_TX"
 		(at 123.19 132.08 180)
 		(effects
@@ -6571,6 +6741,16 @@
 		)
 		(uuid "5759bc0e-36d4-463b-876a-4a77efcdd13a")
 	)
+	(label "BlowerFan"
+		(at 71.12 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e0708b5-a0ad-4332-937c-1d0bf4fa6eb6")
+	)
 	(label "Thermistor"
 		(at 116.84 87.63 0)
 		(effects
@@ -6640,16 +6820,6 @@
 			(justify right bottom)
 		)
 		(uuid "719db28e-29d3-4f4c-8ba7-17e2d42726f7")
-	)
-	(label "GP14_TestPoint"
-		(at 64.77 92.71 180)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify right bottom)
-		)
-		(uuid "7216f21c-31af-4573-87ee-ba905a20971f")
 	)
 	(label "Thermistor"
 		(at 102.87 177.8 180)
@@ -6901,6 +7071,16 @@
 		)
 		(uuid "c3811bc4-69e3-42a5-8e3c-47e14e01926a")
 	)
+	(label "BlowerFan"
+		(at 300.99 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c7d81ab6-3d92-4697-bd3e-67a10bf28fee")
+	)
 	(label "UART_RX"
 		(at 123.19 134.62 180)
 		(effects
@@ -7071,6 +7251,16 @@
 		)
 		(uuid "f7b7db1c-8fd4-43ba-9565-ba78d586eacb")
 	)
+	(label "BlowerReturn"
+		(at 323.85 91.44 180)
+		(effects
+			(font
+				(size 0.381 0.381)
+			)
+			(justify right bottom)
+		)
+		(uuid "f7ba4a2c-c31a-4545-8911-be032a96bd09")
+	)
 	(label "3.3V"
 		(at 67.31 175.26 180)
 		(effects
@@ -7237,82 +7427,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 38.1 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "12991fca-3e55-4f67-adbc-0a192d3fdf27")
-		(property "Reference" "H12"
-			(at 30.734 57.658 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 25.146 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
-			(at 38.1 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 38.1 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ffd508c0-8d5e-4410-a257-7a1b637619ff")
-		)
-		(instances
-			(project "PicoReflowOven"
-				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "H12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 74.93 20.32 0)
 		(mirror y)
@@ -7389,6 +7503,88 @@
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819")
+		(at 320.04 87.63 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ea272e0-47cc-4dff-892b-74b34b1d0aaa")
+		(property "Reference" "D6"
+			(at 317.5 86.0424 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819"
+			(at 317.5 88.5824 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 324.485 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 320.04 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 320.04 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f3bd9f43-fa27-4850-a89f-9a762d88978b")
+		)
+		(pin "2"
+			(uuid "cebfd0e1-8997-4ea1-bdb2-c109f8d1147e")
+		)
+		(instances
+			(project "PicoReflowOven"
+				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7956,83 +8152,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 54.61 92.71 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "37f77913-7bf3-4ed7-8644-139af7a9b190")
-		(property "Reference" "TP1"
-			(at 51.308 87.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 51.308 90.17 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
-			(at 54.61 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 54.61 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dc9814ad-d015-417a-8938-fa31c66a51a7")
-		)
-		(instances
-			(project "PicoReflowOven"
-				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 36.83 177.8 0)
 		(unit 1)
@@ -8124,6 +8243,116 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BC337")
+		(at 322.58 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39c86ac8-1e11-4d54-8672-cd308a4dee3a")
+		(property "Reference" "Q5"
+			(at 327.66 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC337"
+			(at 327.66 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 327.66 100.965 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
+			(at 322.58 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
+			(at 322.58 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 322.58 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 322.58 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "fccbc1bc-3d64-4315-b69f-bcf38a02a461")
+		)
+		(pin "2"
+			(uuid "6efe5092-598c-4300-92c5-b7436dfe375c")
+		)
+		(pin "1"
+			(uuid "1586e53e-582b-436c-b262-085ce3cc4618")
+		)
+		(instances
+			(project "PicoReflowOven"
+				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 240.03 152.4 270)
 		(unit 1)
@@ -8197,6 +8426,168 @@
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 309.88 99.06 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "441a3a22-395c-4b05-9a5f-3bd29460d406")
+		(property "Reference" "R21"
+			(at 309.88 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 309.88 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 309.88 100.838 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 309.88 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "97653598-46d1-41d9-8783-508cd8f99817")
+		)
+		(pin "1"
+			(uuid "15ff22f1-84d0-4dcf-952f-2310eed45bf8")
+		)
+		(instances
+			(project "PicoReflowOven"
+				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 314.96 105.41 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45ad47cf-514c-4dc2-91fa-895a7e236446")
+		(property "Reference" "R22"
+			(at 317.5 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 317.5 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 316.738 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 314.96 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "17d76f34-7a68-42c4-ba06-e5e70d03270c")
+		)
+		(pin "1"
+			(uuid "6569f080-46be-4f52-bf2b-6dfbaa98cb05")
+		)
+		(instances
+			(project "PicoReflowOven"
+				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -8752,6 +9143,88 @@
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 330.2 88.9 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "649b4eef-3451-4966-a5f4-06f1ec780fc0")
+		(property "Reference" "J16"
+			(at 329.184 83.312 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ThermostatBlowerConn"
+			(at 332.74 80.772 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 330.2 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 330.2 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b51ab726-a297-4fca-86fc-2e597e1788ea")
+		)
+		(pin "2"
+			(uuid "4c3f7da8-91d2-42f4-8445-504cbc07e6ba")
+		)
+		(instances
+			(project "PicoReflowOven"
+				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -11100,7 +11573,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 232.41 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11140,6 +11613,84 @@
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 320.04 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eca5f2b1-5b74-463b-acbd-e63bc534177d")
+		(property "Reference" "#PWR016"
+			(at 320.04 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 320.04 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 320.04 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32f5de77-cac0-4eda-81df-821baae22b2b")
+		)
+		(instances
+			(project "PicoReflowOven"
+				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
