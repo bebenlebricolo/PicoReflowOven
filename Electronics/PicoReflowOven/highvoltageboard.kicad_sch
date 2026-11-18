@@ -167,6 +167,389 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CurrentTransformers:CT-RSPRO-1243888"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0.635 6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 3.175 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.175 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 3.175 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CT-RSPRO-1243888_0_1"
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy -2.54 5.08) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -5.08) (xy -2.54 -5.08) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4527 1.27)
+					(mid -1.267 0)
+					(end -2.4527 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.0877 2.54)
+					(mid 1.902 3.81)
+					(end 3.0877 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.0877 1.016)
+					(mid 1.902 2.286)
+					(end 3.0877 3.556)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.0877 -0.508)
+					(mid 1.902 0.762)
+					(end 3.0877 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.1439 -2.032)
+					(mid 1.9582 -0.762)
+					(end 3.1439 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.1439 -3.556)
+					(mid 1.9582 -2.286)
+					(end 3.1439 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.1439 -5.08)
+					(mid 1.9582 -3.81)
+					(end 3.1439 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CT-RSPRO-1243888_1_1"
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type dot)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 3.81)
+					(radius 0.4498)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -5.08) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type dot)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 5.08) (xy -0.762 -5.08)
+					)
+					(stroke
+						(width 0.4)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.4)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 5.08) (xy 0.762 -5.08)
+					)
+					(stroke
+						(width 0.4)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.175 3.556)
+					(mid 3.6301 3.048)
+					(end 3.175 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 5.08) (xy 5.715 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.2312 2.032)
+					(mid 3.6861 1.524)
+					(end 3.2312 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.2312 0.508)
+					(mid 3.6861 0)
+					(end 3.2312 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.2312 -1.016)
+					(mid 3.6861 -1.524)
+					(end 3.2312 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -5.08) (xy 5.715 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.2874 -2.54)
+					(mid 3.7421 -3.048)
+					(end 3.2874 -3.556)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_out line
+					(at 6.35 5.08 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 6.35 -5.08 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 6.35 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "Stab"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1865,7 +2248,7 @@
 		(uuid "ba97dd62-e812-4776-8606-ec43ae7f47e8")
 	)
 	(circle
-		(center 172.0927 84.3081)
+		(center 168.7648 87.6269)
 		(radius 0.1754)
 		(stroke
 			(width 0)
@@ -2003,6 +2386,12 @@
 		(uuid "40249d17-30a6-41d4-bc53-2995ab70657f")
 	)
 	(junction
+		(at 182.88 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cce2845-6547-4820-81e1-da1e0842db96")
+	)
+	(junction
 		(at 107.95 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2039,6 +2428,12 @@
 		(uuid "9a539108-993b-4064-97cf-e2bb199c86ed")
 	)
 	(junction
+		(at 182.88 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a79d5f83-c05e-4b7b-a72e-1a61a76e7905")
+	)
+	(junction
 		(at 124.46 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2072,6 +2467,16 @@
 		)
 		(uuid "0240340f-e743-403c-be03-345f9f7d3d67")
 	)
+	(polyline
+		(pts
+			(xy 166.37 54.61) (xy 166.37 63.5)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "0c47e9b1-1611-4720-807c-c8b3575e0741")
+	)
 	(wire
 		(pts
 			(xy 138.43 88.9) (xy 158.75 88.9)
@@ -2084,6 +2489,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 74.93) (xy 199.39 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12bc68de-61ee-4448-a207-118797c8715b")
+	)
+	(wire
+		(pts
 			(xy 99.06 88.9) (xy 99.06 78.74)
 		)
 		(stroke
@@ -2091,6 +2506,36 @@
 			(type default)
 		)
 		(uuid "1401bdea-547b-40dc-a23a-41dcf5e7c707")
+	)
+	(wire
+		(pts
+			(xy 199.39 68.58) (xy 199.39 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a62db1b-b88f-49bc-a97b-34f5ec836096")
+	)
+	(polyline
+		(pts
+			(xy 172.085 54.61) (xy 166.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "1b970da9-5aa6-4551-bfc5-4dd243170c25")
+	)
+	(polyline
+		(pts
+			(xy 167.005 87.63) (xy 168.275 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0619ff-80dc-49f5-a81a-16bede3464f1")
 	)
 	(wire
 		(pts
@@ -2111,6 +2556,16 @@
 			(type default)
 		)
 		(uuid "20ff4610-4d5a-4e9e-9377-b35045c67634")
+	)
+	(wire
+		(pts
+			(xy 182.88 78.74) (xy 182.88 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c89fe8-d14d-48bc-b59e-20a391a5a213")
 	)
 	(wire
 		(pts
@@ -2164,6 +2619,26 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 74.93) (xy 199.39 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d1396c5-b907-462c-af9e-24e77436b687")
+	)
+	(wire
+		(pts
+			(xy 172.72 78.74) (xy 182.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "498ac456-a012-4cfe-b243-222f6cb6febe")
+	)
+	(wire
+		(pts
 			(xy 92.71 35.56) (xy 92.71 38.1)
 		)
 		(stroke
@@ -2181,6 +2656,16 @@
 			(type default)
 		)
 		(uuid "53bcc292-851b-452f-a19b-b5c62a16df4a")
+	)
+	(wire
+		(pts
+			(xy 199.39 78.74) (xy 182.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c94be8-c487-46ae-b5cd-b53a1ba119a5")
 	)
 	(wire
 		(pts
@@ -2224,6 +2709,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 68.58) (xy 182.88 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "657488aa-d87e-4bb8-b0d8-2647f216c93c")
+	)
+	(wire
+		(pts
 			(xy 176.53 88.9) (xy 179.07 88.9)
 		)
 		(stroke
@@ -2241,6 +2736,16 @@
 			(type default)
 		)
 		(uuid "79049868-641a-453d-a497-d152b96b3084")
+	)
+	(wire
+		(pts
+			(xy 199.39 72.39) (xy 217.17 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d2c8349-ac0e-4aa3-b724-4420c20a38b8")
 	)
 	(wire
 		(pts
@@ -2314,6 +2819,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 68.58) (xy 182.88 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adaf4691-fa7f-47fe-bf9b-f7ffd34d1187")
+	)
+	(wire
+		(pts
 			(xy 96.52 88.9) (xy 99.06 88.9)
 		)
 		(stroke
@@ -2361,6 +2876,26 @@
 			(type default)
 		)
 		(uuid "ba33db74-d67f-4e0b-9a2c-96a7ad7014dd")
+	)
+	(polyline
+		(pts
+			(xy 167.005 80.01) (xy 167.005 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d6e9e5-9d71-4414-ab1e-2a9adcd5a2de")
+	)
+	(wire
+		(pts
+			(xy 182.88 68.58) (xy 199.39 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca30545f-074f-4815-b8aa-6b9a6ad3e000")
 	)
 	(wire
 		(pts
@@ -2492,16 +3027,6 @@
 		)
 		(uuid "faf57cfe-102c-4601-abbf-cea02bab5ea6")
 	)
-	(polyline
-		(pts
-			(xy 172.085 84.455) (xy 172.085 54.61)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "ff030a4b-d213-40c2-b644-ec6bd9ab7509")
-	)
 	(label "SnubberResLow"
 		(at 153.67 99.06 180)
 		(effects
@@ -2572,6 +3097,26 @@
 		)
 		(uuid "619d1e5a-16a1-4e53-bd8c-7404cdc49022")
 	)
+	(label "HV{slash}CurrentSense2"
+		(at 207.01 74.93 180)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify right bottom)
+		)
+		(uuid "f145cf94-c71a-4d6e-9161-124b18bda3de")
+	)
+	(label "HV{slash}CurrentSense1"
+		(at 207.01 72.39 180)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify right bottom)
+		)
+		(uuid "f16d7420-db89-4c81-afc7-fc8f7b45f608")
+	)
 	(label "HV{slash}OptoGate"
 		(at 130.81 95.25 180)
 		(effects
@@ -2593,7 +3138,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e448eea-e49b-4f54-b774-f49a78d347b6")
-		(property "Reference" "H2"
+		(property "Reference" "H7"
 			(at 124.206 41.402 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2649,6 +3194,12 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/2911df2a-f973-4196-975f-35f045e68959"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+			(project "highvoltageboard"
+				(path "/cbbd75f8-04da-44c7-858b-1b616347060e"
 					(reference "H2")
 					(unit 1)
 				)
@@ -2667,7 +3218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f59eca6-c63b-45e3-8879-fa26cd58dceb")
-		(property "Reference" "J10"
+		(property "Reference" "J14"
 			(at 91.44 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2729,6 +3280,12 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/2911df2a-f973-4196-975f-35f045e68959"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+			(project "highvoltageboard"
+				(path "/cbbd75f8-04da-44c7-858b-1b616347060e"
 					(reference "J10")
 					(unit 1)
 				)
@@ -2747,7 +3304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "239f76f5-2b28-4181-83f7-b9e53d3e9caf")
-		(property "Reference" "R15"
+		(property "Reference" "R12"
 			(at 129.54 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2809,6 +3366,12 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/2911df2a-f973-4196-975f-35f045e68959"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+			(project "highvoltageboard"
+				(path "/cbbd75f8-04da-44c7-858b-1b616347060e"
 					(reference "R15")
 					(unit 1)
 				)
@@ -2827,7 +3390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "295ff08c-cfc3-41c0-b8fe-a6fe734c69b1")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR018"
 			(at 129.54 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2888,6 +3451,12 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/2911df2a-f973-4196-975f-35f045e68959"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+			(project "highvoltageboard"
+				(path "/cbbd75f8-04da-44c7-858b-1b616347060e"
 					(reference "#PWR024")
 					(unit 1)
 				)
@@ -2905,7 +3474,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ea05b9d-4020-4645-814e-d2fed0c5d812")
-		(property "Reference" "C5"
+		(property "Reference" "C1"
 			(at 161.29 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2979,6 +3548,12 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/2911df2a-f973-4196-975f-35f045e68959"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "highvoltageboard"
+				(path "/cbbd75f8-04da-44c7-858b-1b616347060e"
 					(reference "C5")
 					(unit 1)
 				)
@@ -2997,7 +3572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45e39dca-742a-46bd-85eb-676e9d4809d2")
-		(property "Reference" "Q1"
+		(property "Reference" "Q4"
 			(at 142.24 92.0241 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3032,7 +3607,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/6f82d0749d02d61024875836d4374de4/BTA316Y-800CT.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/bta16.pdf"
 			(at 138.43 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3044,7 +3619,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "Triac; 800V; 16A; Igt: 35mA; TO220AB; tube; Ifsm: 140A; 3Q,Hi-Com"
+		(property "Description" "16A RMS, 800V Off-State Voltage, 35mA Sensitivity, Snubberless, Insulated, Triac, TO-220"
 			(at 138.43 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3067,6 +3642,12 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/2911df2a-f973-4196-975f-35f045e68959"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+			(project "highvoltageboard"
+				(path "/cbbd75f8-04da-44c7-858b-1b616347060e"
 					(reference "Q1")
 					(unit 1)
 				)
@@ -3085,7 +3666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53088829-18e6-43bc-b894-7fcc899fa52e")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR019"
 			(at 129.54 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3146,6 +3727,12 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/2911df2a-f973-4196-975f-35f045e68959"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+			(project "highvoltageboard"
+				(path "/cbbd75f8-04da-44c7-858b-1b616347060e"
 					(reference "#PWR025")
 					(unit 1)
 				)
@@ -3163,7 +3750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62074339-0f70-48e4-b864-366588653807")
-		(property "Reference" "R17"
+		(property "Reference" "R13"
 			(at 161.29 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3237,7 +3824,101 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/2911df2a-f973-4196-975f-35f045e68959"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+			(project "highvoltageboard"
+				(path "/cbbd75f8-04da-44c7-858b-1b616347060e"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 182.88 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bff26e7-acd5-49bd-ab57-507c562283b3")
+		(property "Reference" "R14"
+			(at 185.42 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100Ω /0,25W"
+			(at 185.42 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 181.102 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 182.88 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8c5496a0-8ec7-47ca-bf76-d61817b0f2d1")
+		)
+		(pin "1"
+			(uuid "97fbc01f-ba0b-4f51-a05c-077a12751c17")
+		)
+		(instances
+			(project "PicoReflowOven"
+				(path "/2911df2a-f973-4196-975f-35f045e68959"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "highvoltageboard"
+				(path "/cbbd75f8-04da-44c7-858b-1b616347060e"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3255,7 +3936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75768a30-27c1-422c-b22a-9b9a442cb2c6")
-		(property "Reference" "J9"
+		(property "Reference" "J15"
 			(at 186.69 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3319,7 +4000,95 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/2911df2a-f973-4196-975f-35f045e68959"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+			(project "highvoltageboard"
+				(path "/cbbd75f8-04da-44c7-858b-1b616347060e"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 222.25 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "850aece5-5e2f-4fb7-90f5-6853ba6686d2")
+		(property "Reference" "J17"
+			(at 224.79 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AcCurrentSensingCon"
+			(at 224.79 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 222.25 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 222.25 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0adb2902-e3e3-488b-8a14-105ef2bba833")
+		)
+		(pin "1"
+			(uuid "cb4e7aed-97bf-4990-b816-6a83818d6d6b")
+		)
+		(instances
+			(project "PicoReflowOven"
+				(path "/2911df2a-f973-4196-975f-35f045e68959"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -3336,7 +4105,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8fe46f78-8cb5-4223-829a-4ee7cf2d74cc")
-		(property "Reference" "H1"
+		(property "Reference" "H5"
 			(at 83.566 51.816 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3395,7 +4164,102 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/2911df2a-f973-4196-975f-35f045e68959"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+			(project "highvoltageboard"
+				(path "/cbbd75f8-04da-44c7-858b-1b616347060e"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CurrentTransformers:CT-RSPRO-1243888")
+		(at 166.37 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a94aed5-f07b-400d-b65a-ad681ac57f7b")
+		(property "Reference" "U2"
+			(at 166.6875 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 169.545 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CurrentTransformer:CT-RSPRO-1243888"
+			(at 169.545 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 169.545 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "705d3c7e-3859-403e-90d3-c11d8763cad7")
+		)
+		(pin "2"
+			(uuid "ee7e6a05-cf5b-4726-bf75-299f3f12858f")
+		)
+		(pin "1"
+			(uuid "17f46c65-9c8a-44e1-91d4-c40295f511c6")
+		)
+		(instances
+			(project "PicoReflowOven"
+				(path "/2911df2a-f973-4196-975f-35f045e68959"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+			(project "highvoltageboard"
+				(path "/cbbd75f8-04da-44c7-858b-1b616347060e"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3413,7 +4277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bef7338-8a97-4943-822b-7ef0f2148d66")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR017"
 			(at 100.33 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -3474,6 +4338,12 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/2911df2a-f973-4196-975f-35f045e68959"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+			(project "highvoltageboard"
+				(path "/cbbd75f8-04da-44c7-858b-1b616347060e"
 					(reference "#PWR023")
 					(unit 1)
 				)
@@ -3492,7 +4362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3d09720-1ac8-4f2b-bdef-93891b4f04ea")
-		(property "Reference" "R16"
+		(property "Reference" "R11"
 			(at 125.73 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3556,6 +4426,12 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/2911df2a-f973-4196-975f-35f045e68959"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+			(project "highvoltageboard"
+				(path "/cbbd75f8-04da-44c7-858b-1b616347060e"
 					(reference "R16")
 					(unit 1)
 				)
@@ -3655,6 +4531,12 @@
 					(unit 1)
 				)
 			)
+			(project "highvoltageboard"
+				(path "/cbbd75f8-04da-44c7-858b-1b616347060e"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3748,6 +4630,12 @@
 					(unit 1)
 				)
 			)
+			(project "highvoltageboard"
+				(path "/cbbd75f8-04da-44c7-858b-1b616347060e"
+					(reference "HS1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3826,6 +4714,12 @@
 					(unit 1)
 				)
 			)
+			(project "highvoltageboard"
+				(path "/cbbd75f8-04da-44c7-858b-1b616347060e"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3839,7 +4733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd24945d-6b47-467d-b461-3767e4b40832")
-		(property "Reference" "H3"
+		(property "Reference" "H6"
 			(at 124.206 36.322 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3895,6 +4789,12 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/2911df2a-f973-4196-975f-35f045e68959"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+			(project "highvoltageboard"
+				(path "/cbbd75f8-04da-44c7-858b-1b616347060e"
 					(reference "H3")
 					(unit 1)
 				)
@@ -3975,6 +4875,12 @@
 					(unit 1)
 				)
 			)
+			(project "highvoltageboard"
+				(path "/cbbd75f8-04da-44c7-858b-1b616347060e"
+					(reference "H4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3989,7 +4895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f90bacff-b54d-4c8b-94cf-521f4ce5d96c")
-		(property "Reference" "R18"
+		(property "Reference" "R10"
 			(at 104.14 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4051,6 +4957,12 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/2911df2a-f973-4196-975f-35f045e68959"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+			(project "highvoltageboard"
+				(path "/cbbd75f8-04da-44c7-858b-1b616347060e"
 					(reference "R18")
 					(unit 1)
 				)

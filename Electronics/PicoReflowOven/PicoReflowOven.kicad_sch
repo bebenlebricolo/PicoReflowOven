@@ -7282,7 +7282,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "003b2055-3793-4fa7-aa95-24e65e708aef")
-		(property "Reference" "H10"
+		(property "Reference" "H2"
 			(at 30.734 47.498 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7341,7 +7341,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "H10")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -7359,7 +7359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00e125d9-2ec7-4b9b-8ea3-3b599a3df6eb")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR01"
 			(at 25.4 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -7420,7 +7420,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "#PWR013")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7520,7 +7520,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ea272e0-47cc-4dff-892b-74b34b1d0aaa")
-		(property "Reference" "D6"
+		(property "Reference" "D3"
 			(at 317.5 86.0424 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7584,7 +7584,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "D6")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7602,7 +7602,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f48d56b-89db-4970-8a08-7e749db059e3")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 243.84 86.0424 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7666,7 +7666,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7683,7 +7683,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "236821cd-c32b-4f11-b5b5-e5d03504387d")
-		(property "Reference" "J11"
+		(property "Reference" "J9"
 			(at 184.15 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7774,7 +7774,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "J11")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -7792,7 +7792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24418a30-4ac4-4ee9-80a2-d24ae8efcb47")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR03"
 			(at 49.53 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7853,7 +7853,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "#PWR027")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7871,7 +7871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a52f899-2034-45d0-8476-734a46b0878f")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 186.69 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7935,7 +7935,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8053,7 +8053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36866f3f-dd87-4b5e-adda-4dc2860854f8")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 251.46 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8145,7 +8145,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -8254,7 +8254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39c86ac8-1e11-4d54-8672-cd308a4dee3a")
-		(property "Reference" "Q5"
+		(property "Reference" "Q3"
 			(at 327.66 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8346,7 +8346,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "Q5")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -8364,7 +8364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43754feb-19cb-4f95-85cd-e07ddd32b28a")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR013"
 			(at 233.68 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -8425,7 +8425,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "#PWR021")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8443,7 +8443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "441a3a22-395c-4b05-9a5f-3bd29460d406")
-		(property "Reference" "R21"
+		(property "Reference" "R8"
 			(at 309.88 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8505,7 +8505,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "R21")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8523,7 +8523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45ad47cf-514c-4dc2-91fa-895a7e236446")
-		(property "Reference" "R22"
+		(property "Reference" "R9"
 			(at 317.5 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8587,7 +8587,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "R22")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8605,7 +8605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46ed5669-8e4c-437d-b2cb-b335a0157846")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR06"
 			(at 93.98 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -8665,7 +8665,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "#PWR018")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8683,7 +8683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47009c44-68b6-4237-898b-e84846266bc7")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR08"
 			(at 123.19 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8744,7 +8744,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "#PWR017")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8762,7 +8762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d366200-f0e1-4742-9e8b-43ace6001d75")
-		(property "Reference" "J15"
+		(property "Reference" "J2"
 			(at 49.53 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8829,7 +8829,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "J15")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8846,7 +8846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d453ba5-fc3a-4a17-8311-45024581d745")
-		(property "Reference" "H9"
+		(property "Reference" "H1"
 			(at 30.734 42.418 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8905,7 +8905,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "H9")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -8923,7 +8923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "502314f7-5c49-4518-b241-b1411405d8eb")
-		(property "Reference" "R20"
+		(property "Reference" "R1"
 			(at 107.95 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8987,7 +8987,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "R20")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9004,7 +9004,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f550501-0464-4449-b9bd-f1c24d396771")
-		(property "Reference" "H11"
+		(property "Reference" "H3"
 			(at 30.734 52.578 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9063,7 +9063,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "H11")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -9081,7 +9081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60aac60f-0e7d-4427-947e-d613bac7194b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR04"
 			(at 60.96 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -9142,7 +9142,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "#PWR014")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9160,7 +9160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "649b4eef-3451-4966-a5f4-06f1ec780fc0")
-		(property "Reference" "J16"
+		(property "Reference" "J13"
 			(at 329.184 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9224,7 +9224,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "J16")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -9241,7 +9241,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a1c8945-d818-4568-8f0a-186a65b06a14")
-		(property "Reference" "J14"
+		(property "Reference" "J5"
 			(at 116.078 179.578 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9305,7 +9305,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "J14")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9323,7 +9323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7196031c-a1af-49f6-99d9-0585cb04c0de")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR012"
 			(at 170.18 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9384,7 +9384,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "#PWR019")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9402,7 +9402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7699926a-44ff-402b-b874-d7f8341de542")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR07"
 			(at 105.41 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -9462,7 +9462,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "#PWR038")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -9480,7 +9480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "787360e8-93aa-4ec9-8a2b-8dd4cc9cd249")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 168.91 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9541,7 +9541,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9559,7 +9559,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e33fbc4-8ac1-4517-bc29-39958119e49a")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 86.36 29.5274 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9623,7 +9623,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -9641,7 +9641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "905c4e4f-17af-4947-bc1f-e6a832c5a0bf")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR02"
 			(at 35.56 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9702,7 +9702,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "#PWR026")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9720,7 +9720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "965cf969-5242-49db-b9e1-37e3560106fe")
-		(property "Reference" "J6"
+		(property "Reference" "J3"
 			(at 74.93 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9793,7 +9793,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -10007,7 +10007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a25f36e1-d104-4170-a20f-ae33dce3c844")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR010"
 			(at 143.51 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -10068,7 +10068,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "#PWR015")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10086,7 +10086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7f1dcbb-e662-42d0-97b2-c85cd7abb37d")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR05"
 			(at 80.01 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10146,7 +10146,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "#PWR01")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -10164,7 +10164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8f89590-1ecb-494d-ae18-0ed0d5072d67")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 171.45 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10228,7 +10228,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10246,7 +10246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac0843e6-9d0c-40d5-bebf-a2d88bdb0902")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR09"
 			(at 116.84 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10307,7 +10307,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "#PWR022")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10325,7 +10325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbea3d38-f53a-40fc-87ff-b0067e3fa19a")
-		(property "Reference" "J5"
+		(property "Reference" "J11"
 			(at 255.524 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10389,7 +10389,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "J5")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -10407,7 +10407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be6fbccf-7a97-4a97-a92c-35eb14aff3dc")
-		(property "Reference" "J2"
+		(property "Reference" "J12"
 			(at 265.43 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10471,7 +10471,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "J2")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -10566,7 +10566,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ceb2fa2c-b7c1-42dd-bfdb-02007efd754e")
-		(property "Reference" "TP5"
+		(property "Reference" "TP2"
 			(at 14.224 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10627,7 +10627,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "TP5")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -10644,7 +10644,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2b6af54-2ba9-40cb-8ef5-d4cb11ce2b88")
-		(property "Reference" "TP4"
+		(property "Reference" "TP1"
 			(at 14.224 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10705,7 +10705,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "TP4")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -10723,7 +10723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4e17e0e-7b44-402c-bf12-e47e5873abad")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR014"
 			(at 243.84 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10783,7 +10783,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "#PWR03")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10801,7 +10801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d57cc949-2c3c-4bf1-b3f4-c392140fb125")
-		(property "Reference" "R3"
+		(property "Reference" "R6"
 			(at 241.3 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10865,7 +10865,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "R3")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -10883,7 +10883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5f5eb58-87bf-46fe-9fb9-bbcf9dff56ba")
-		(property "Reference" "R13"
+		(property "Reference" "R5"
 			(at 236.22 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10945,7 +10945,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "R13")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -10963,7 +10963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9154760-ea14-4ed9-b553-9c68cfc40d58")
-		(property "Reference" "J8"
+		(property "Reference" "J6"
 			(at 130.81 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11039,7 +11039,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "J8")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -11056,7 +11056,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "db9b3283-e9dd-4566-8c60-49fe9229b6a0")
-		(property "Reference" "SW4"
+		(property "Reference" "SW1"
 			(at 35.56 13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11121,7 +11121,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "SW4")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -11139,7 +11139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de1b2987-890c-4055-9b23-a590dd05b604")
-		(property "Reference" "J13"
+		(property "Reference" "J10"
 			(at 247.65 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11206,7 +11206,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "J13")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -11224,7 +11224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "deb4765a-eeb4-4be4-97a4-0166ec89b505")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 233.68 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11286,7 +11286,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11304,7 +11304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1060f25-f014-4930-abfe-80c8ebce508f")
-		(property "Reference" "J3"
+		(property "Reference" "J8"
 			(at 182.88 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11374,7 +11374,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "J3")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -11392,7 +11392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7834624-d6e9-41cc-a770-65060a204cde")
-		(property "Reference" "R14"
+		(property "Reference" "R7"
 			(at 243.84 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11456,7 +11456,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "R14")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11474,7 +11474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e96eff87-9615-48c7-80b3-9a696ad79728")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR015"
 			(at 246.38 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11534,7 +11534,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -11708,7 +11708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe631a58-6f31-4715-b6c4-ca5f8bf9df38")
-		(property "Reference" "Q4"
+		(property "Reference" "Q2"
 			(at 254 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11800,7 +11800,7 @@
 		(instances
 			(project "PicoReflowOven"
 				(path "/00b857e3-9865-4585-8510-567df6df8a9b"
-					(reference "Q4")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
